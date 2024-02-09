@@ -13,8 +13,7 @@ def makeResStr(func):
 def inc(x):
     return x + 1
 
-if __name__ == "__main__":
-    arg = int(input("Enter a number: "))
-    res = inc(arg)
-    print(f"The result of {res}")
-    print(f"Data type of the \"result\": {type(res)}")
+arg = int(input("Enter a number: "))
+res = inc(arg)
+print(f"The result of {res}")
+print(f"Data type of the \"result\": {type(res)}")
