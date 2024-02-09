@@ -9,9 +9,7 @@ result = add_five(6)
 print(result)
 
 
-
 # Decorator
-
 def makeResStr(func):
     def operate(*args, **kwargs):
         print("Let's make the result display as String data type")
@@ -19,9 +17,6 @@ def makeResStr(func):
         
         return result
     return operate
-
-
-
 
 @makeResStr
 def inc(x):
