@@ -1,0 +1,3 @@
+2024-02-08 12:01:01 - User1 logged in
+2024-02-08 12:02:12 - User2 clicked on a link
+2024-02-08 12:03:45 - User1 performed a search
